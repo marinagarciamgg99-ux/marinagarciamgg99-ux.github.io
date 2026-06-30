@@ -136,17 +136,17 @@
   .section-title { font-size: clamp(22px, 3vw, 30px); font-weight: 800; color: var(--white); margin-bottom: 40px; letter-spacing: -0.5px; }
   .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
   .fade-in.visible { opacity: 1; transform: translateY(0); }
-  .stack-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+  .stack-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 24px; }
   .stack-group {
     background: rgba(255,255,255,0.03); border: 1px solid rgba(124,110,255,0.12);
-    border-radius: 12px; padding: 20px; transition: border-color 0.2s, background 0.2s;
+    border-radius: 14px; padding: 28px; transition: border-color 0.2s, background 0.2s;
   }
   .stack-group:hover { border-color: rgba(124,110,255,0.35); background: rgba(124,110,255,0.05); }
-  .stack-group-title { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--purple-light); margin-bottom: 12px; }
+  .stack-group-title { font-size: 11.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--purple-light); margin-bottom: 16px; }
   .tag-grid { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag {
     background: rgba(124,110,255,0.12); border: 1px solid rgba(124,110,255,0.2);
-    color: var(--purple-light); font-size: 11px; padding: 4px 10px; border-radius: 6px;
+    color: var(--purple-light); font-size: 13px; padding: 7px 14px; border-radius: 8px;
     font-weight: 500; cursor: default; transition: background 0.2s, border-color 0.2s, color 0.2s;
   }
   .tag:hover { background: var(--purple); border-color: var(--purple); color: white; }
